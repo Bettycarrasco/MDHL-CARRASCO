@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header,nav,main{
+    font-family: cursive;
+}
+img{
+    max-width: 100%;
+}
+.img1{
+    height: 450px;
+    width: 1347px;
+}
+.a{
+    font-size: 65px;
+}
+.aa{
+    position: absolute;
+    top: 540px;
+    text-align: center;
+    border: 1px solid black;
+    left: 0px;
+    width: 1347px;
+}
+main{
+    position: absolute;
+    left: 350px;
+    top: 600px;
+}
+.logo{
+    position: absolute;
+    top: 600px;
+    left: 80px;
+}
+nav{
+    position: absolute;
+    right: 10px;
+    top: 80px;
+}
+nav>a{
+    text-decoration: none;
+    background-color:rgb(4, 33, 87) ;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px rgb(112, 112, 139);
+}
+nav >a:hover{
+background-color: green;
+}
+.correo{
+    position: absolute;
+    top: 50px;
+    width: 300px;
+}
