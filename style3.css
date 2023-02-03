@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 header,nav{
     font-family: Comic Sans MS;
@@ -12,7 +13,7 @@ img{
 }
 .img1{
     height: 450px;
-    width: 1400px;
+    width: 100%;
 }
 .a{
     color: blue;
@@ -28,19 +29,18 @@ img{
         text-align: center;
         border: 1px solid black;
         left: 5px;
-        width: 1347px;
+        width: 100%;
         box-shadow: 6px 6px 6px rgb(199, 199, 8);
     }
 main{
-    width: 1347px;
+    width: 45%;
     height: 400px;
     position: absolute;
     left: 5px;
     top: 600px;
     border: 1px ; 
     text-align: center;
-    left: 400px;
-    width: 30%;
+    margin-left: 20%;
 }
 .logo{
     position: fixed;
@@ -71,5 +71,61 @@ nav >a:hover{
     .correo{
         position: absolute;
         top: 80px;
-        width: 300px;
+        width: 100%;
+    }
+    .subra{
+        text-decoration: underline;
+    }
+    table{
+        display: flex;
+        justify-content: center;
+        width: 45%;
+        height: 400px;
+        position: absolute;
+        left: 30px;
+        top: 60px;
+        margin-top: 50px;
+        padding: 10px;
+        width: 100%;
+    }
+    tr>th{
+        left: 30px;
+        background-color:rgb(199, 199, 8) ;
+        box-shadow: 6px 6px 6px rgb(23,226,216);
+        padding: 50px;
+    }
+    td{
+        background-color: aquamarine;
+        box-shadow:6px 6px 6px rgb(199, 199, 8) ;
+    padding: 15px;
+    }
+    th{
+        width: 100%;
+    }
+.foot{
+    position: absolute;
+    top: 800px;
+    width: 85%;
+    left: 70px;
+}
+.img2{
+position: absolute;
+    right: 110px;
+    top: 600px;
+    box-shadow: 6px 6px 6px rgb(4, 53, 143);
+    border-radius: 50px;
+    }
+.hockey1{
+position: absolute;
+    right: 110px;
+    top: 950px;
+    box-shadow: 6px 6px 6px rgb(4, 53, 143);
+    border-radius: 50px;
+    }
+    .hockey3{
+        position: absolute;
+        right: 110px;
+        top: 1350px;
+        box-shadow: 6px 6px 6px rgb(4, 53, 143);
+        border-radius: 50px;  
     }
